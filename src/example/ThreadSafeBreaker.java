@@ -1,3 +1,5 @@
+package example;
+
 import com.sun.istack.internal.NotNull;
 import org.mozilla.javascript.*;
 import util.Helper;
@@ -11,13 +13,13 @@ import java.util.Map;
 /**
  * @author Sergey Simonchik
  */
-public class TestRhinoCompileFunction implements ScriptRunner {
+public class ThreadSafeBreaker {
 
-    private static final Lgr LGR = new Lgr(TestRhinoCompileFunction.class.getSimpleName());
+    private static final Lgr LGR = new Lgr(ThreadSafeBreaker.class.getSimpleName());
 
     private final Function myJSLINTFunction;
 
-    public TestRhinoCompileFunction(int optimizationLevel) {
+    public ThreadSafeBreaker(int optimizationLevel) {
         long startCompileNanoTime = System.nanoTime();
         myJSLINTFunction = compile(optimizationLevel);
         LGR.log("compile", startCompileNanoTime);
@@ -42,12 +44,6 @@ public class TestRhinoCompileFunction implements ScriptRunner {
         }
     }
 
-    @Override
-    public String getName() {
-        return TestRhinoCompileFunction.class.getSimpleName();
-    }
-
-    @Override
     public String run(String options, String jsSourceCodeToLint) {
         Context cx = Context.enter();
         try {
@@ -109,14 +105,6 @@ public class TestRhinoCompileFunction implements ScriptRunner {
             object.defineProperty(key, nativeObj, ScriptableObject.READONLY);
         }
         return object;
-    }
-
-    public static void main(String[] args) throws ScriptException, IOException, InterruptedException {
-        TestRhinoCompileFunction test = new TestRhinoCompileFunction(9);
-        long startTime = System.nanoTime();
-        String res = test.run(Helper.OPTIONS, Helper.EXT_JS_DEBUG_WITH_COMMENTS);
-        LGR.log("run", startTime);
-        System.out.println("res is " + res);
     }
 
 }

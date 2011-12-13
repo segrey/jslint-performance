@@ -1,3 +1,5 @@
+package util;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -26,22 +28,26 @@ public class Helper {
             "}";
 
     static {
-        try {
-            JSLINT_CODE_MODIFIED = readContent(MODIFIED_PATH);
-            JSLINT_CODE_ORIGINAL = readContent(ORIGINAL_PATH);
-            EXT_JS_DEBUG_WITH_COMMENTS = readContent(new File(BASE_PATH, "./test_source/ext-all-debug-w-comments.js"));
-            AUTO = readContent(new File(BASE_PATH, "./test_source/auto_yandex_ru.js"));
-            AWAPS = readContent(new File(BASE_PATH, "./test_source/awaps.js"));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
+        JSLINT_CODE_MODIFIED = readContent(MODIFIED_PATH);
+        JSLINT_CODE_ORIGINAL = readContent(ORIGINAL_PATH);
+        EXT_JS_DEBUG_WITH_COMMENTS = readContent(new File(BASE_PATH, "./test_source/ext-all-debug-w-comments.js"));
+        AUTO = readContent(new File(BASE_PATH, "./test_source/auto_yandex_ru.js"));
+        AWAPS = readContent(new File(BASE_PATH, "./test_source/awaps.js"));
     }
 
     public static String readContent(String fileName) throws IOException {
         return readContent(new File(BASE_PATH, fileName));
     }
 
-    public static String readContent(File file) throws IOException {
+    public static String readContent(File file) {
+        try {
+            return _readContent(file);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private static String _readContent(File file) throws IOException {
         Reader reader = new FileReader(file);
         StringBuilder builder = new StringBuilder();
         try {

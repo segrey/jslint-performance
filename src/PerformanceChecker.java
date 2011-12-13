@@ -1,10 +1,13 @@
+import util.Helper;
+import util.Lgr;
+
 import java.io.IOException;
 
 public class PerformanceChecker {
 
     private void checkPerformance() throws IOException {
         Lgr lgr = new Lgr(PerformanceChecker.class.getSimpleName());
-        String source = Helper.JSLINT_CODE_ORIGINAL;//Helper.readContent(AUTO_JS_SOURCE);
+        String source = Helper.JSLINT_CODE_ORIGINAL;//util.Helper.readContent(AUTO_JS_SOURCE);
         ScriptRunner[] runners = {
 //                new JavaxScriptingRunner()
                 new TestRhinoCompile(9)

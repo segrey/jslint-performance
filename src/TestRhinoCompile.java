@@ -1,4 +1,6 @@
 import org.mozilla.javascript.*;
+import util.Helper;
+import util.Lgr;
 
 import javax.script.*;
 import java.io.IOException;
