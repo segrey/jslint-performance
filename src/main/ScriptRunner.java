@@ -1,3 +1,5 @@
+package main;
+
 /**
  * @author Sergey Simonchik
  */

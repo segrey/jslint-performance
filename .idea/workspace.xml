@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041ec936-9214-4e05-901f-8b4d4dd89400" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/ShareScope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/ThreadSafeBreaker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/example/share.js" />
-      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\Helper.java" afterPath="$PROJECT_DIR$/src/util/Helper.java" />
-      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\Lgr.java" afterPath="$PROJECT_DIR$/src/util/Lgr.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/TestRhinoEvaluate2.java" />
+      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\JavaxScriptingRunner.java" afterPath="$PROJECT_DIR$/src/main/JavaxScriptingRunner.java" />
+      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\NodeJSRunner.java" afterPath="$PROJECT_DIR$/src/main/NodeJSRunner.java" />
+      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\ScriptRunner.java" afterPath="$PROJECT_DIR$/src/main/ScriptRunner.java" />
+      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\TestRhinoCompile.java" afterPath="$PROJECT_DIR$/src/main/TestRhinoCompile.java" />
+      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\TestRhinoCompileFunction.java" afterPath="$PROJECT_DIR$/src/main/TestRhinoCompileFunction.java" />
+      <change type="MOVED" beforePath="C:\Users\Sergey.Simonchik\stuff\2\jslint-performance\src\TestRhinoEvaluate.java" afterPath="$PROJECT_DIR$/src/main/TestRhinoEvaluate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaxScriptingRunner.java" afterPath="$PROJECT_DIR$/src/JavaxScriptingRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NodeJSRunner.java" afterPath="$PROJECT_DIR$/src/NodeJSRunner.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PerformanceChecker.java" afterPath="$PROJECT_DIR$/src/PerformanceChecker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestRhinoCompile.java" afterPath="$PROJECT_DIR$/src/TestRhinoCompile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestRhinoCompileFunction.java" afterPath="$PROJECT_DIR$/src/TestRhinoCompileFunction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TestRhinoEvaluate.java" afterPath="$PROJECT_DIR$/src/TestRhinoEvaluate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/ShareScope.java" afterPath="$PROJECT_DIR$/src/example/ShareScope.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/ThreadSafeBreaker.java" afterPath="$PROJECT_DIR$/src/example/ThreadSafeBreaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/share.js" afterPath="$PROJECT_DIR$/src/example/share.js" />
     </list>
     <ignored path="rhino-performance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,57 +75,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Scriptable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/Scriptable.java">
+      <file leaf-file-name="TestRhinoEvaluate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/TestRhinoEvaluate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="209" column="16" selection-start="8868" selection-end="8868" vertical-scroll-proportion="0.0">
+            <state line="13" column="13" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShareScope.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/ShareScope.java">
+      <file leaf-file-name="TestRhinoEvaluate2.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/TestRhinoEvaluate2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="86" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadSafeBreaker.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/example/ThreadSafeBreaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3965" selection-end="3965" vertical-scroll-proportion="0.9292088">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/Context.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1504" column="22" selection-start="56769" selection-end="56769" vertical-scroll-proportion="0.0">
+            <state line="11" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestRhinoCompile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestRhinoCompile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/TestRhinoCompile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="47" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
+            <state line="18" column="11" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TestRhinoCompileFunction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TestRhinoCompileFunction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/TestRhinoCompileFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="23" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0">
+            <state line="79" column="40" selection-start="2975" selection-end="2975" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerformanceChecker.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PerformanceChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="62" selection-start="947" selection-end="947" vertical-scroll-proportion="0.36210763">
+              <folding>
+                <element signature="e#471#485#0" expanded="true" />
+                <element signature="e#684#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaxScriptingRunner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/JavaxScriptingRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +144,7 @@
       <file leaf-file-name="share.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/example/share.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Lgr.java" />
-        <option value="$PROJECT_DIR$/src/addon.js" />
         <option value="$PROJECT_DIR$/src/jslint.js" />
         <option value="$PROJECT_DIR$/node.js" />
         <option value="$PROJECT_DIR$/src/JavaxScriptingRunner.java" />
@@ -191,11 +191,13 @@
         <option value="$PROJECT_DIR$/nodejs_addon.js" />
         <option value="$PROJECT_DIR$/src/TestRhinoCompileFunction.java" />
         <option value="$PROJECT_DIR$/src/TestRhinoEvaluate.java" />
-        <option value="$PROJECT_DIR$/src/PerformanceChecker.java" />
         <option value="$PROJECT_DIR$/src/util/Helper.java" />
         <option value="$PROJECT_DIR$/src/example/share.js" />
         <option value="$PROJECT_DIR$/src/example/ShareScope.java" />
         <option value="$PROJECT_DIR$/src/example/ThreadSafeBreaker.java" />
+        <option value="$PROJECT_DIR$/src/main/TestRhinoCompileFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/TestRhinoEvaluate2.java" />
+        <option value="$PROJECT_DIR$/src/PerformanceChecker.java" />
       </list>
     </option>
   </component>
@@ -256,6 +258,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -320,14 +324,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jslint-performance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jslint-performance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="example" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,12 +365,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main" />
       <recent name="example" />
       <recent name="" />
     </key>
@@ -358,24 +379,7 @@
       <recent name="C:\Users\Sergey.Simonchik\stuff\2\rhino-performance\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShareScope">
-    <configuration default="false" name="TestRhinoEvaluate" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TestRhinoEvaluate" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jslint-performance" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PerformanceChecker">
     <configuration default="false" name="PerformanceChecker" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="PerformanceChecker" />
@@ -401,7 +405,7 @@
     </configuration>
     <configuration default="false" name="TestRhinoCompileFunction" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="TestRhinoCompileFunction" />
+      <option name="MAIN_CLASS_NAME" value="main.TestRhinoCompileFunction" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -418,7 +422,7 @@
     </configuration>
     <configuration default="false" name="NodeJSRunner" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NodeJSRunner" />
+      <option name="MAIN_CLASS_NAME" value="main.NodeJSRunner" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -467,12 +471,27 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node JS">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
+    <configuration default="false" name="TestRhinoEvaluate2" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.TestRhinoEvaluate2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jslint-performance" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -482,6 +501,13 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node JS">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -506,6 +532,24 @@
       </method>
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" method_name="" module_name="" output_log_level="" package_name="" player_path="FlashPlayer.exe" port="0" run_mode="HtmlOrSwfFile" run_trusted="true" scope="Class" socket_policy_port="0" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -546,24 +590,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -581,17 +607,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -621,9 +636,20 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="false" name="JavaxScriptingRunner" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="JavaxScriptingRunner" />
+      <option name="MAIN_CLASS_NAME" value="main.JavaxScriptingRunner" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -632,7 +658,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="rhino-performance" />
+      <module name="jslint-performance" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -652,14 +678,14 @@
       <method />
     </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestRhinoEvaluate" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PerformanceChecker" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestRhinoCompileFunction" />
-      <item index="3" class="java.lang.String" itemvalue="Application.NodeJSRunner" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaxScriptingRunner" />
-      <item index="5" class="java.lang.String" itemvalue="Node JS.Unnamed" />
-      <item index="6" class="java.lang.String" itemvalue="Node JS Remote Debug.Unnamed" />
-      <item index="7" class="java.lang.String" itemvalue="Application.ShareScope" />
+      <item index="0" class="java.lang.String" itemvalue="Application.PerformanceChecker" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestRhinoCompileFunction" />
+      <item index="2" class="java.lang.String" itemvalue="Application.NodeJSRunner" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JavaxScriptingRunner" />
+      <item index="4" class="java.lang.String" itemvalue="Node JS.Unnamed" />
+      <item index="5" class="java.lang.String" itemvalue="Node JS Remote Debug.Unnamed" />
+      <item index="6" class="java.lang.String" itemvalue="Application.ShareScope" />
+      <item index="7" class="java.lang.String" itemvalue="Application.TestRhinoEvaluate2" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -699,7 +725,6 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965498" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -712,11 +737,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.600345" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4611846" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.53881544" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4611846" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="96" y="96" width="1008" height="1684" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32949972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39965498" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -783,119 +809,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestRhinoEvaluate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PerformanceChecker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="8" selection-start="855" selection-end="855" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/NativeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="12" selection-start="2408" selection-end="2408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/ast/Symbol.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="13" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="49" column="13" selection-start="1864" selection-end="1864" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="527" column="16" selection-start="15973" selection-end="15973" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/ast/Scope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="13" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/Scriptable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="16" selection-start="8868" selection-end="8868" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/ScriptRuntime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1009" column="29" selection-start="35156" selection-end="35156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestRhinoCompileFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="23" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestRhinoCompile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="47" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/share.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="527" column="16" selection-start="15973" selection-end="15973" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1504" column="22" selection-start="56769" selection-end="56769" vertical-scroll-proportion="0.0">
+        <state line="1504" column="22" selection-start="56769" selection-end="56769" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/Scriptable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="22" selection-start="11819" selection-end="11819" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ShareScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/ThreadSafeBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="38" selection-start="666" selection-end="666" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/ScriptableObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="840" column="20" selection-start="29080" selection-end="29080" vertical-scroll-proportion="0.0">
+        <state line="840" column="20" selection-start="29080" selection-end="29080" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/example/share.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ShareScope.java">
+    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/ScriptRuntime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="86" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0">
+        <state line="1009" column="29" selection-start="35156" selection-end="35156" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/rhino1_7R3.zip!/rhino1_7R3/src/org/mozilla/javascript/ast/Scope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="13" selection-start="2100" selection-end="2100" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/JavaxScriptingRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestRhinoCompile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestRhinoCompileFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="40" selection-start="2975" selection-end="2975" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestRhinoEvaluate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TestRhinoEvaluate2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PerformanceChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="62" selection-start="947" selection-end="947" vertical-scroll-proportion="0.36210763">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#471#485#0" expanded="true" />
+            <element signature="e#684#698#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/ThreadSafeBreaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3965" selection-end="3965" vertical-scroll-proportion="0.9292088">
-          <folding />
         </state>
       </provider>
     </entry>

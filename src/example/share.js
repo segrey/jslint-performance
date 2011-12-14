@@ -1,3 +1,3 @@
 var func = function (a) {
-    return a + b;
+    return a + b.split(",").length;
 };

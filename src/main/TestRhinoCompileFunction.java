@@ -1,3 +1,5 @@
+package main;
+
 import com.sun.istack.internal.NotNull;
 import org.mozilla.javascript.*;
 import util.Helper;
@@ -13,7 +15,7 @@ import java.util.Map;
  */
 public class TestRhinoCompileFunction implements ScriptRunner {
 
-    private static final Lgr LGR = new Lgr(TestRhinoCompileFunction.class.getSimpleName());
+    private static final Lgr LGR = new Lgr("JSLint Compiler");
 
     private final Function myJSLINTFunction;
 
@@ -21,6 +23,12 @@ public class TestRhinoCompileFunction implements ScriptRunner {
         long startCompileNanoTime = System.nanoTime();
         myJSLINTFunction = compile(optimizationLevel);
         LGR.log("compile", startCompileNanoTime);
+    }
+
+    public TestRhinoCompileFunction(int optimizationLevel, int id) {
+        long startCompileNanoTime = System.nanoTime();
+        myJSLINTFunction = compile(optimizationLevel);
+        LGR.log("compile#" + id, startCompileNanoTime);
     }
 
     public static Function compile(int optimizationLevel) {
@@ -112,6 +120,9 @@ public class TestRhinoCompileFunction implements ScriptRunner {
     }
 
     public static void main(String[] args) throws ScriptException, IOException, InterruptedException {
+        for (int i = 0; i < 100; i++) {
+            TestRhinoCompileFunction test = new TestRhinoCompileFunction(9, i + 1);
+        }
         TestRhinoCompileFunction test = new TestRhinoCompileFunction(9);
         long startTime = System.nanoTime();
         String res = test.run(Helper.OPTIONS, Helper.EXT_JS_DEBUG_WITH_COMMENTS);

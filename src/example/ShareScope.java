@@ -18,21 +18,19 @@ public class ShareScope {
 //            Scriptable newScope = context.newObject(sharedScope);
 //            newScope.setPrototype(sharedScope);
 //            newScope.setParentScope(null);
-            ScriptableObject newScope = context.initStandardObjects();
-            Scriptable obj = context.newObject(newScope, "String", new Object[] {"qqq"});
-            newScope.put("b", newScope, obj);
+            Scriptable scope = function.getParentScope();
+            Scriptable obj = context.newObject(scope, "String", new Object[] {"a"});
+            scope.put("b", scope, obj);
 
-            System.out.println(Arrays.toString(newScope.getAllIds()));
-            System.out.println(newScope.get("b"));
+//            System.out.println(newScope.get("b"));
 
             Object res = null;
             try {
-                res = function.call(context, newScope, newScope, new Object[] {1});
+                res = function.call(context, scope, scope, new Object[] {1});
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            System.out.println(Arrays.toString(newScope.getAllIds()));
-            System.out.println(newScope.get("b"));
+            System.out.println(scope.get("b", scope));
             System.out.println("result is " + res);
         } finally {
              Context.exit();
@@ -58,7 +56,7 @@ public class ShareScope {
             String source = Helper.readContent(new File("./src/example/share.js"));
             Script script = context.compileString(source, "<jslint>", 1, null);
             ScriptableObject scope = context.initStandardObjects();
-            Scriptable obj = context.newObject(scope, "String", new Object[] {"www"});
+            Scriptable obj = context.newObject(scope, "String", new Object[] {"a,b,c"});
             scope.put("b", scope, obj);
             script.exec(context, scope);
             Object res = scope.get("func", scope);
