@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class TestRhinoCompileFunction implements ScriptRunner {
 
-    private static final Lgr LGR = new Lgr("JSLint Compiler");
+    private static final Lgr LGR = new Lgr(TestRhinoCompileFunction.class.getSimpleName());
 
     private final Function myJSLINTFunction;
 

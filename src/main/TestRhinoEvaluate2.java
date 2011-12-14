@@ -79,6 +79,7 @@ public class TestRhinoEvaluate2 implements ScriptRunner {
     }
 
     private Function getJSLintFunction(@NotNull Context cx, @NotNull Scriptable scope) throws IOException {
+        cx.setOptimizationLevel(9);
         cx.evaluateString(scope, Helper.JSLINT_CODE_ORIGINAL, "jslint", 1, null);
         Object jsLint = scope.get("JSLINT", scope);
         if (!(jsLint instanceof Function)) {
