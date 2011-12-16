@@ -15,6 +15,12 @@ public class Lgr {
         System.out.printf("[%s] %s takes %.3f ms\n", myOwner, actionName, (endNanoTime - startNanoTime) / 1000000.0);
     }
 
+    public void logWithThread(String actionName, long startNanoTime) {
+        long endNanoTime = System.nanoTime();
+        String threadName = Thread.currentThread().getName();
+        System.out.printf(threadName + "-[%s] %s takes %.3f ms\n", myOwner, actionName, (endNanoTime - startNanoTime) / 1000000.0);
+    }
+
     public void log(String actionName, long startNanoTime, int count) {
         long endNanoTime = System.nanoTime();
         double total = (endNanoTime - startNanoTime) / 1000000.0;

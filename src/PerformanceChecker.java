@@ -12,7 +12,7 @@ public class PerformanceChecker {
 
     private void checkPerformance() throws IOException {
         Lgr lgr = new Lgr(PerformanceChecker.class.getSimpleName());
-        String source = Helper.AWAPS;
+        String source = Helper.JSLINT_CODE_ORIGINAL;
         List<List<ScriptRunner>> scriptRunnerGroups = Arrays.asList(
                 Arrays.<ScriptRunner>asList(
                         new JavaxScriptingRunner(),
