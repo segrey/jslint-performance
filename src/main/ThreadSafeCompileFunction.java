@@ -29,7 +29,7 @@ public class ThreadSafeCompileFunction implements ScriptRunner {
     @Override
     public String run(String options, String jsSourceCodeToLint) {
         Runner runner = myThreadLocalFunction.get();
-        return runner.run(Helper.OPTIONS, Helper.AUTO);
+        return runner.run(options, jsSourceCodeToLint);
     }
 
     private static class Runner {

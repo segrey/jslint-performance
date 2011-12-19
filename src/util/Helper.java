@@ -30,7 +30,7 @@ public class Helper {
     static {
         JSLINT_CODE_MODIFIED = readContent(MODIFIED_PATH);
         JSLINT_CODE_ORIGINAL = readContent(ORIGINAL_PATH);
-        EXT_JS_DEBUG_WITH_COMMENTS = readContent(new File(BASE_PATH, "./test_source/ext-all-debug-w-comments.js"));
+        EXT_JS_DEBUG_WITH_COMMENTS = readContent(new File(BASE_PATH, "./test_source/ext-all-debug-test.js"));
         AUTO = readContent(new File(BASE_PATH, "./test_source/auto_yandex_ru.js"));
         AWAPS = readContent(new File(BASE_PATH, "./test_source/awaps.js"));
     }

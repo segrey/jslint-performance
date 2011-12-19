@@ -51,7 +51,6 @@ public class ThreadSafeCompileFunction2 implements ScriptRunner {
                 Object jsLintObj = scope.get("JSLINT", scope);
                 if (jsLintObj instanceof Function) {
                     Function jsLint = (Function) jsLintObj;
-                    Scriptable parent = jsLint.getParentScope();
                     return new FunctionWithScope(jsLint, scope);
                 } else {
                     throw new RuntimeException("JSLINT is undefined or not a function.");

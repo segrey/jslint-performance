@@ -19,6 +19,10 @@ public class TestRhinoCompileFunction implements ScriptRunner {
 
     private final Function myJSLINTFunction;
 
+    public TestRhinoCompileFunction() {
+        this(9);
+    }
+
     public TestRhinoCompileFunction(int optimizationLevel) {
         long startCompileNanoTime = System.nanoTime();
         myJSLINTFunction = compile(optimizationLevel);
@@ -69,14 +73,17 @@ public class TestRhinoCompileFunction implements ScriptRunner {
             Boolean noErrors = (Boolean) Context.jsToJava(status, Boolean.class);
             if (!noErrors) {
                 StringBuilder builder = new StringBuilder();
+                int cnt = 0;
                 for (Object error : ((NativeArray) myJSLINTFunction.get("errors", scope)).toArray()) {
                     if (error instanceof NativeObject) {
                         if (builder.length() > 0) {
                             builder.append("\n");
                         }
                         builder.append(errorToString((NativeObject) error));
+                        cnt++;
                     }
                 }
+                System.out.println("Cnt is " + cnt);
                 return builder.toString();
             }
             return "";
@@ -86,13 +93,8 @@ public class TestRhinoCompileFunction implements ScriptRunner {
     }
 
     private static int toInt(Object obj) {
-//        if (obj instanceof Number) {
-            Number number = (Number) obj;
-            return number.intValue();
-//        } else {
-//            System.out.println();
-//            return 0;
-//        }
+        Number number = (Number) obj;
+        return number.intValue();
     }
 
     private static String errorToString(@NotNull NativeObject error) {
@@ -120,14 +122,14 @@ public class TestRhinoCompileFunction implements ScriptRunner {
     }
 
     public static void main(String[] args) throws ScriptException, IOException, InterruptedException {
-        for (int i = 0; i < 100; i++) {
-            TestRhinoCompileFunction test = new TestRhinoCompileFunction(9, i + 1);
-        }
+//        for (int i = 0; i < 100; i++) {
+//            TestRhinoCompileFunction test = new TestRhinoCompileFunction(9, i + 1);
+//        }
         TestRhinoCompileFunction test = new TestRhinoCompileFunction(9);
         long startTime = System.nanoTime();
         String res = test.run(Helper.OPTIONS, Helper.EXT_JS_DEBUG_WITH_COMMENTS);
         LGR.log("run", startTime);
-        System.out.println("res is " + res);
+//        System.out.println("res is " + res);
     }
 
 }
