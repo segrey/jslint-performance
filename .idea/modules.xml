@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jslint-performance.iml" filepath="$PROJECT_DIR$/jslint-performance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rhino-performance.iml" filepath="$PROJECT_DIR$/rhino-performance.iml" />
     </modules>
   </component>
 </project>
