@@ -35,10 +35,6 @@ public class Helper {
         AWAPS = readContent(new File(BASE_PATH, "./test_source/awaps.js"));
     }
 
-    public static String readContent(String fileName) throws IOException {
-        return readContent(new File(BASE_PATH, fileName));
-    }
-
     public static String readContent(File file) {
         try {
             return _readContent(file);

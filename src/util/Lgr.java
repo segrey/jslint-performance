@@ -18,7 +18,8 @@ public class Lgr {
     public void logWithThread(String actionName, long startNanoTime) {
         long endNanoTime = System.nanoTime();
         String threadName = Thread.currentThread().getName();
-        System.out.printf(threadName + "-[%s] %s takes %.3f ms\n", myOwner, actionName, (endNanoTime - startNanoTime) / 1000000.0);
+        double durationMillis = (endNanoTime - startNanoTime) / 1000000.0;
+        System.out.printf(threadName + "-[%s] %s takes %.3f ms\n", myOwner, actionName, durationMillis);
     }
 
     public void log(String actionName, long startNanoTime, int count) {

@@ -13,15 +13,7 @@ public class NodeJSRunner implements ScriptRunner {
     private static final String NODE_PATH = "C:/Users/Sergey.Simonchik/nodes/node-v0.6.1/node.exe";
 
     private static final Charset UTF8 = Charset.forName("UTF-8");
-    private static final String NODEJS_ADDON;
-
-    static {
-        try {
-            NODEJS_ADDON = Helper.readContent("nodejs_addon.js");
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+    private static final String NODEJS_ADDON = Helper.readContent(new File("./nodejs_addon.js"));
 
     private final PrintWriter myPrintWriter;
     private final BufferedReader myBufferedReader;
