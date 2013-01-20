@@ -14,6 +14,9 @@ import java.util.regex.Pattern;
 public class JsHintNewRunner implements ScriptRunner {
 
     private static final Lgr LGR = new Lgr(JsHintNewRunner.class.getSimpleName());
+  private static final String JSHINT_PATH_R12 = "./jshint/jshint-r12.js";
+  private static final String JSHINT_PATH_1_0_0_r4 = "./jshint/jshint-1.0.0-r4.js";
+  private static final String JSHINT_PATH_NEW = "./jshint/jshint-new.js";
 
     private final ThreadLocal<Runner> myThreadRunner = new ThreadLocal<Runner>() {
         @Override
@@ -50,7 +53,7 @@ public class JsHintNewRunner implements ScriptRunner {
             Context context = Context.enter();
             try {
                 context.setOptimizationLevel(optimizationLevel);
-                File jshintJsSrc = new File("./src/jshint/jshint.js");
+                File jshintJsSrc = new File(JSHINT_PATH_NEW);
                 return context.compileString(Helper.readContent(jshintJsSrc), "<jshint>", 1, null);
             } finally {
                 Context.exit();

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="rhino-R4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/js-R4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/rhino1_7R4.zip!/rhino1_7R4/src" />
+      <root url="jar://$PROJECT_DIR$/lib/rhino1_7R4.zip!/rhino1_7R4/toolsrc" />
+    </SOURCES>
+  </library>
+</component>

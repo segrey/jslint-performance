@@ -6,8 +6,8 @@ package util;
 public class Lgr {
     private final String myOwner;
 
-    public Lgr(String myOwner) {
-        this.myOwner = myOwner;
+    public Lgr(String owner) {
+        myOwner = owner;
     }
 
     public void log(String actionName, long startNanoTime) {
